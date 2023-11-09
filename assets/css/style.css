@@ -71,11 +71,11 @@ h6 {
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
@@ -374,7 +374,7 @@ h6 {
   background-color: #8E8FFA;
 }
 
-#hero h1 {
+#hero h2 {
   margin: 0 0 20px 0;
   font-size: 48px;
   font-weight: 700;
@@ -383,7 +383,7 @@ h6 {
   color: var(--Cream, #FFD);
 }
 
-#hero h2 {
+#hero p {
   color:  var(--background-color);
   font-family: var(--default-font);
   font-size: 16px;
